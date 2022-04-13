@@ -44,7 +44,7 @@ void AP_Proximity_TeraRangerTower::update(void)
 // get maximum and minimum distances (in meters) of primary sensor
 float AP_Proximity_TeraRangerTower::distance_max() const
 {
-    return 4.5f;
+    return 40.0f;
 }
 float AP_Proximity_TeraRangerTower::distance_min() const
 {
